@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+	font-family: 'Lato', Calibri;
+    background-color: #cdcdcd;
+    text-align: right;
+}
+#wrapper {
+    width:100%;
+}
+.outermostDiv {
+    width:50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+#secondColor {
+    width:35vw;
+    height:35vw;
+    background-color:#fff;
+    display:block;
+    border-radius: 50%;
+    padding: 2.5vw;
+}
+#minuteColor {
+    width:40vw;
+    height:40vw;
+    background-color:#0d0d0d;
+    display:block;
+    border-radius: 50%;
+    padding: 2.5vw;
+}
+#hourColor {
+    width:45vw;
+    height:45vw;
+    background-color:#000;
+    display:block;
+    margin-top: 10vw;
+    border-radius: 50%;
+    padding: 2.5vw;
+}
+
+#clock {
+    width:30vw;
+    height:30vw;
+    color:#fff;
+    background-color:#000;
+    float:left;
+    overflow:auto;
+    font-size:10vw;
+    text-align: right;
+    display:inline;
+    border-radius: 50%;
+    padding-top: 10vw;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+#hours {
+    /*width:15%;*/
+    height:14vw;
+    color:#fff;
+    background-color:#000;
+    float:left;
+    overflow:auto;
+    font-size:5vw;
+    text-align: right;
+    display:inline-block;
+    margin-top:2vw;
+}
+#colon1 {
+    /*width:15%;*/
+    height:14vw;
+    color:#fff;
+    background-color:#000;
+    float:left;
+    overflow:auto;
+    font-size:5vw;
+    text-align: center;
+    display:inline-block;
+    margin-top:1.5vw;
+    margin-left:1%;
+}
+#minutes {
+    /*width:15%;*/
+    height:15vw;
+    color:#fff;
+    background-color:#000;
+    float:left;
+    overflow:auto;
+    font-size:5vw;
+    text-align: right;
+    display:inline-block;
+    margin-top:2vw;
+    margin-left:1%;
+}
+#colon2 {
+    /*width:15%;*/
+    height:14vw;
+    color:#fff;
+    background-color:#000;
+    float:left;
+    overflow:auto;
+    font-size:5vw;
+    text-align: center;
+    display:inline-block;
+    margin-top:1.5vw;
+    margin-left:1%;
+}
+#seconds {
+    /*width:15%;*/
+    height:14vw;
+    color:#fff;
+    background-color:#000;
+    float:left;
+    overflow:auto;
+    font-size:5vw;
+    text-align: right;
+    display:inline-block;
+    margin-top:2vw;
+    margin-left:1%;
+}
+#AMorPM {
+    /*width:15%;*/
+    height:6vw;
+    color:#fff;
+    background-color:#000;
+    float:left;
+    overflow:auto;
+    font-size:2vw;
+    text-align: right;
+    display:inline-block;
+    margin-top: 3vw;
+    margin-left:2%;
+}
